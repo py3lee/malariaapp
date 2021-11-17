@@ -102,4 +102,4 @@ def update_line_chart(
     return fig
 
 server = app.server
-app.run_server(debug=True)
+# app.run_server(debug=True)
