@@ -9,7 +9,7 @@ import plotly.express as px
 from pathlib import Path
 import pandas as pd
 
-df_path = Path(__file__).parents[1] / 'data/processed/malaria_deaths_age_processed.csv'
+df_path = 'data/processed/malaria_deaths_age_processed.csv'
 df = pd.read_csv(df_path)
 
 all_age_group = df.age_group.unique()
