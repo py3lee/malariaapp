@@ -74,6 +74,7 @@ body = dbc.Container(
 )
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.SUPERHERO])
+server = app.server
 app.layout = body
 
 @app.callback(
@@ -101,5 +102,5 @@ def update_line_chart(
     )
     return fig
 
-server = app.server
-# app.run_server(debug=True)
+if __name__ == '__main__':
+    app.run_server(debug=True)
