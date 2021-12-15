@@ -1,4 +1,4 @@
-# Dash app on malaria datasets
+# Dash app on 3 malaria datasets
 
 This repository contains the python scripts used to create the Dash app to visualize the number of malaria deaths over time using aggregated malaria data.  
 
