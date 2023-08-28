@@ -3,6 +3,7 @@
 This repository contains the python scripts used to create the Dash app to visualize the number of malaria deaths over time using aggregated malaria data.  
 
 Link to Dash app: https://malariadatasets.herokuapp.com
+> Update: heroku no longer provides free app hosting services; due to lack of funding for current hobby/demo app, the current app hosted on heroku no longer works.
 
 # Dataset
 
